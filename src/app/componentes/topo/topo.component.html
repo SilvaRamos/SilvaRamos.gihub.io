@@ -1,0 +1,31 @@
+
+<div class="div4">
+    <div class="divMenu">
+        <a routerLink="/home" style=" margin-top: 1.7rem; padding-left: 0%; padding-right: 2rem;">
+            <img src="../../assets/logo.png" style="width: 95%; height: 75%;">
+        </a>
+        <app-botao [tituloDoServico]="'ATIVIDADES'" [rota]="'/atividades'" [fragmento]="'atividades'"></app-botao>
+        <app-botao [tituloDoServico]="'SAÚDE EM FOCO'" [rota]="'/'"></app-botao>
+        <button class="botao" onclick=" window.open('https://utilitarios.unimedcg.com.br/formulario?cdPesquisa=wQDN&cdSistema=%3DgTM','_blank')" type="button" target="_blank">
+            <div class="">
+            </div>
+            <div class="divTituloBotaoServico">
+                    INSCREVA-SE
+            </div>
+        </button>
+    
+    </div>
+
+    <div class="divCarrossel">
+        <app-carrossel [imagens]="['../../assets/carrossel/carrossel-img1.png']">  </app-carrossel>
+        <!-- <app-carrossel [imagens]="['../../assets/carrossel/carrossel-img1.png',
+        'https://picsum.photos/id/18/2500/1667',
+        'https://picsum.photos/id/19/2500/1667']">
+        </app-carrossel> -->
+    </div>
+ 
+    <div class="div3">
+        <img src="../../assets/imagem-abaixo-banner.png" style="height: 100%; width: 100%;">
+    </div>
+    
+</div>
